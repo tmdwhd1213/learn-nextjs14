@@ -2,6 +2,8 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import Movie from "../../components/movie";
+import styles from "../../styles/home.module.css";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -43,14 +45,17 @@ async function getMovies() {
 
 // next.js에서는 server 컴포넌트에서 하기때문에 백엔드에서 직접 접근할 수 있음.
 export default async function HomePage() {
-  const movies: [{ id: number; title: string }] = await getMovies();
+  const movies = await getMovies();
   return (
-    <>
+    <div className={styles.container}>
       {movies.map((movie) => (
-        <li key={movie.id}>
-          <Link href={`/movies/${movie.id}`}>{movie.title}</Link>
-        </li>
+        <Movie
+          key={movie.id}
+          id={movie.id}
+          poster_path={movie.poster_path}
+          title={movie.title}
+        />
       ))}
-    </>
+    </div>
   );
 }
