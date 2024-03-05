@@ -1,0 +1,6 @@
+2:I[2105,["901","static/chunks/901-46daf0744ec3c920.js","185","static/chunks/app/layout-909ab4dbf2140e50.js"],""]
+3:I[5613,[],""]
+4:I[1778,[],""]
+0:["K0xGifnaxkU_9efgcjhmP",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},["$L1",["$","h1",null,{"children":"낫 빠운드!"}],null]]},[null,["$","html",null,{"lang":"en","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","h1",null,{"children":"낫 빠운드!"}],"notFoundStyles":[],"styles":null}]]}]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/952b8a8574f49980.css","precedence":"next","crossOrigin":""}]],"$L5"]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Not found"}],["$","meta","3",{"name":"description","content":"The Best Movie on the frameworks"}]]
+1:null

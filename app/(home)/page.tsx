@@ -4,12 +4,11 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import Movie from "../../components/movie";
 import styles from "../../styles/home.module.css";
+import { API_URL } from "../../constants";
 
 export const metadata: Metadata = {
   title: "Home",
 };
-
-export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 async function getMovies() {
   // 로딩은 백엔드에서 되기 때문에 사용자가 5초(로딩시간)을 감내해야함.
