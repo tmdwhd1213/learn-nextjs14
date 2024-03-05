@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   title: "Home",
 };
 
-export const URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
+export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 async function getMovies() {
   // 로딩은 백엔드에서 되기 때문에 사용자가 5초(로딩시간)을 감내해야함.
   // 근데 그러면 UX가 나빠지기 때문에 로딩화면에 로딩이 되고 있다는 것을 보여주는 것이 좋음.
   await new Promise((resolve) => setTimeout(resolve, 1000));
-  const response = await fetch(URL);
+  const response = await fetch(API_URL);
   const json = await response.json();
   return json;
 }
